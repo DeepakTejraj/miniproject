@@ -1,0 +1,162 @@
+#myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+  #myvideo{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio:16/9){
+  #myvideo{
+    width: auto;
+    height: 100%;
+  }
+}
+  /* header CSS */   
+  .container-fluid {
+      background-image: radial-gradient(rgb(247, 185, 16), rgb(243, 247, 249), rgb(87, 249, 90));
+      margin-top: 0px;
+      margin: 0px;
+      padding: 5px;
+      left: 0px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-family:'Times New Roman', Times, serif;
+      animation-name: navbar;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      text-align: center;
+    }
+    
+
+  /* ROW1 CSS */
+    .column1a {
+      grid-area: A;
+      margin:5px; 
+     
+    }
+  
+    .column1b {
+      grid-area: B;
+      margin:5px; 
+    
+    }
+  
+    .column1c {
+      grid-area: C;
+      margin:5px; 
+      
+    }
+  
+    .row1 {
+      display: grid;
+      grid-template-areas: "A A A B B B C C C";
+      padding: 0.5px;
+    }
+  
+  /* ROW2 CSS */
+    .column2a {
+      grid-area: A;
+      margin:5px; 
+     
+    }
+  
+    .column2b {
+      grid-area: B;
+      margin:5px; 
+    }
+  
+    .column2c {
+      grid-area: C;
+      margin:5px; 
+     
+    }
+  
+    .row2 {
+      display: grid;
+      grid-template-areas: "A A A B B B C C C";
+    }
+    
+  /* ROW3 CSS */
+    .column3a {
+      grid-area: A;
+      margin:5px; 
+      
+    }
+  
+    .column3b {
+      grid-area: B;
+      margin:5px; 
+      
+    }
+  
+    .column3c {
+      grid-area: C;
+      margin:5px; 
+    
+    }
+  
+    .row3 {
+      display: grid;
+      grid-template-areas: "A A A B B B C C C";
+    }
+    
+    
+  /* FOOTER CSS */
+  .foot {
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid rgb(71, 248, 7);
+    background-color: rgb(127, 255, 208);
+    font-size: 20px;
+    
+  }
+  
+   .thankyou{
+    color: rgb(8, 7, 7);
+    text-shadow: 5px 5px rgba(0,0,0,0.2);
+  }
+  .credit{
+    color: black;
+    text-shadow: 5px 5px rgba(0,0,0,0.2);
+   }
+  
+   
+   /* Audio janganman */
+   .janganman{
+    text-align: center;
+  
+  }
+  
+   /* TEXT BELOW the IMAGES CSS */
+    .imgtxt {
+         color: rgb(7, 8, 8);
+         font-size: 20px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+  
+    
+    
+    /* image css */
+    img{
+      box-shadow: 0px 6px 6px 0px rgba(4, 254, 141, 0.5);
+      border-radius: 50px;
+      animation-name: image;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes image {
+      0%{border-radius:50px ;}
+      50%{border-radius:80px ;}
+    }
